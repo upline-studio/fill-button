@@ -1,0 +1,30 @@
+{
+    "name": "upline/fill-button",
+    "description": "Button to fill other fields in Laravel Nova resource form",
+    "keywords": [
+        "laravel",
+        "nova",
+        "field"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.4|^8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Upline\\FillButton\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Upline\\FillButton\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

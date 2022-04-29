@@ -28,7 +28,7 @@ export default {
     data() {
         return {
             loading: false,
-            fieldValues: {...this.field.initialData}
+            fieldValues: {...this.field.initialValues}
         }
     },
 
